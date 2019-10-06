@@ -1,1 +1,121 @@
 <h1>Hi</h1>
+
+<table id="chess-board">
+  <tr id="row_1">
+    <td id="cell_1-1"></td>
+    <td id="cell_1-2"></td>
+    <td id="cell_1-3"></td>
+    <td id="cell_1-4"></td>
+    <td id="cell_1-5"></td>
+    <td id="cell_1-6"></td>  
+    <td id="cell_1-7"></td>
+    <td id="cell_1-8"></td>      
+  </tr>  
+
+  <tr id="row_2">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_3">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_4">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_5">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_6">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_7">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>  
+
+  <tr id="row_8">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>  
+    <td></td>
+    <td></td>      
+  </tr>              
+</table>
+
+<script>
+  $("#chess-board td").click(function() {
+    console.log(this);
+  });
+  
+  $("#row_1 td:odd").css('background-color', "black");
+  $("#row_2 td:even").css('background-color', "black");
+  $("#row_3 td:odd").css('background-color', "black");
+  $("#row_4 td:even").css('background-color', "black");
+  $("#row_5 td:odd").css('background-color', "black");
+  $("#row_6 td:even").css('background-color', "black");
+  $("#row_7 td:odd").css('background-color', "black");
+  $("#row_8 td:even").css('background-color', "black");
+
+  //for (var i=0; i<8; i++) {
+    //$("#row_2").clone().id('row_' + i);
+    //set id for table data inside of row
+  //}
+  
+
+</script>
+
+
+
+
+
+
+
+
