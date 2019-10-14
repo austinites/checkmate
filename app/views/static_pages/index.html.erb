@@ -1,1 +1,35 @@
 <h1>Hi</h1>
+<p>
+
+<h2> Available Games by User E-mail </h2>
+<% Game.available.each do |game| %>
+<%= User.find(game.user_id).email %>
+<p>
+<% end %>
+
+<table id="chess-board">
+<% 8.times do %>
+  <tr>
+    <% 8.times do %>
+      <td></td>
+    <% end %>
+  </tr> 
+<% end %> 
+</table>
+
+<script>
+  $("#chess-board td").click(function() {
+    console.log(this);
+  });
+
+  
+
+</script>
+
+
+
+
+
+
+
+
