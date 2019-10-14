@@ -537,3 +537,61 @@ Completed 200 OK in 523ms (Views: 500.3ms | ActiveRecord: 0.0ms)
   [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" LIMIT $1[0m  [["LIMIT", 11]]
   [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" LIMIT $1[0m  [["LIMIT", 11]]
   [1m[36mUser Load (20.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/games" for 10.0.2.2 at 2019-10-07 21:53:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3231ms (Views: 3203.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 21:55:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 599ms (Views: 580.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 21:55:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 740ms (Views: 721.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 21:59:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 613ms (Views: 598.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 22:00:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 705ms (Views: 683.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 23:03:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 878ms (Views: 830.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games" for 10.0.2.2 at 2019-10-07 23:04:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#index as HTML
+  Rendering games/index.html.erb within layouts/application
+  Rendered games/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 894ms (Views: 846.2ms | ActiveRecord: 0.0ms)
+
+
