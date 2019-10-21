@@ -44,21 +44,21 @@ class Game < ApplicationRecord
     end
   end
 
-  def castling?(King, Rook)
+  def castling?(king, rook)
     return false if status == not_moved
     # piece is black, castle to left
-    if (King.color == 'black' && Rook.xcoordinate == 0)
-      King.move_to(2, 0)
-      Rook.move_to(3, 0) 
-    elsif 
-      King.move_to(6, 0)
-      Rook.move_to(5, 0)
-    elsif 
-      King.move_to(2, 7)
-      Rook.move_to(3, 7)
-    elsif 
-      King.move_to(6, 7)
-      Rook.move_to(5, 7)
+    if (king.color == 'black' && rook.xcoordinate == 0)
+      king.move_to(2, 0)
+      rook.move_to(3, 0) 
+    elsif (king.color == 'black' && rook.xcoordinate == 7)
+      king.move_to(6, 0)
+      rook.move_to(5, 0)
+    elsif (king.color == 'white' && rook.xcoordinate == 0)
+      king.move_to(2, 7)
+      rook.move_to(3, 7)
+    elsif (king.color == 'white' && rook.xcoordinate == 7)
+      king.move_to(6, 7)
+      rook.move_to(5, 7)
     end  
   end
 
