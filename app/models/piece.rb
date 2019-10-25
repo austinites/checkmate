@@ -36,7 +36,7 @@ class Piece < ApplicationRecord
 
   # check if a piece move is valid
   def legal_move?(x, y)
-    if off_the_board?(x, y) || same_position?(x, y)
+    if off_the_board?(x, y) || same_position?(x, y))
       true
     else
       false

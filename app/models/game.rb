@@ -25,7 +25,7 @@ class Game < ApplicationRecord
     Queen.create(color: 'black', xcoordinate: 3, ycoordinate: 0)
     King.create(color: 'black', xcoordinate: 4, ycoordinate: 0)
 
-    # Populates black pieces in the database
+    # Populates white pieces in the database
     (0..7).each do |i|
       Pawn.create(color: 'white', xcoordinate: i, ycoordinate: 6)
     end
@@ -45,17 +45,20 @@ class Game < ApplicationRecord
   end
 
   def castling?(king, rook)
-    return false if status == not_moved
+    return false if (status == has_moved)
     # piece is black, castle to left
     if (king.color == 'black' && rook.xcoordinate == 0)
       king.move_to(2, 0)
       rook.move_to(3, 0) 
+    # piece is black, castle to right
     elsif (king.color == 'black' && rook.xcoordinate == 7)
       king.move_to(6, 0)
       rook.move_to(5, 0)
+    # piece is white, castle to left
     elsif (king.color == 'white' && rook.xcoordinate == 0)
       king.move_to(2, 7)
       rook.move_to(3, 7)
+    # piece is white, castle to right  
     elsif (king.color == 'white' && rook.xcoordinate == 7)
       king.move_to(6, 7)
       rook.move_to(5, 7)

@@ -1,7 +1,7 @@
 class King < Piece
   
   def legal_move?(x, y)
-    super
+    return false unless super
 
     x_distance = (x - @xcoordinate).abs
     y_distance = (y - @ycoordinate).abs
