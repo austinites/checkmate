@@ -2,7 +2,7 @@ class Piece < ApplicationRecord
   belongs_to :user, optional: true
 
   # check if piece has moved since creation
-  def has_moved?
+  def setHasMoved?
     puts "dbg: has_moved"
     returnvalue = status.present?
     print "dbg: ", returnvalue, "\n"  
@@ -36,7 +36,7 @@ class Piece < ApplicationRecord
 
   # check if a piece move is valid
   def legal_move?(x, y)
-    if off_the_board?(x, y) || same_position?(x, y))
+    if off_the_board?(x, y) || same_position?(x, y)
       true
     else
       false
