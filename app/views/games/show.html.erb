@@ -1,4 +1,34 @@
-<h1>Games Model</h1>
+<h1>Here's Your Game</h1>
+
+
+<table id="chess-board">
+<% 8.times do |j|%>
+  <tr>
+    <% 8.times do |i|%>
+      <td>
+      	<%  @game.pieces.all.each do |piece| %>
+      	<%		if piece.xcoordinate==i     %>
+      	<%			if piece.ycoordinate==7-j %>
+      	<%=        		raw(piece.piece_type)	%>
+      	<%			end 					%>
+      	<%		end 						%>
+      	<%	end                             %>
+
+      </td>
+    <% end %>
+  </tr> 
+<% end %> 
+</table>
+
+<script>
+  $("#chess-board td").click(function() {
+    console.log(this);
+  });
+
+  
+
+</script>
+
 
 
 

@@ -13,37 +13,37 @@ class Game < ApplicationRecord
 
     # Populates black pieces in the database
     (0..7).each do |i|
-      Pawn.create(color: 'black', xcoordinate: i, ycoordinate: 1, game_id: self.id)
+      Pawn.create(color: 'black', xcoordinate: i, ycoordinate: 1, game_id: self.id, piece_type: "&#x265F;")
     end
   
-    Rook.create(color:'black', xcoordinate: 0, ycoordinate: 0, game_id: self.id)
-    Rook.create(color:'black', xcoordinate: 7, ycoordinate: 0, game_id: self.id)
+    Rook.create(color:'black', xcoordinate: 0, ycoordinate: 0, game_id: self.id, piece_type: "&#x265C;")
+    Rook.create(color:'black', xcoordinate: 7, ycoordinate: 0, game_id: self.id, piece_type: "&#x265C;")
   
-    Knight.create(color: 'black', xcoordinate: 1, ycoordinate: 0, game_id: self.id)
-    Knight.create(color: 'black', xcoordinate: 6, ycoordinate: 0, game_id: self.id)
+    Knight.create(color: 'black', xcoordinate: 1, ycoordinate: 0, game_id: self.id, piece_type: "&#x265E;")
+    Knight.create(color: 'black', xcoordinate: 6, ycoordinate: 0, game_id: self.id, piece_type: "&#x265E;")
 
-    Bishop.create(color: 'black', xcoordinate: 2, ycoordinate: 0, game_id: self.id)
-    Bishop.create(color: 'black', xcoordinate: 5, ycoordinate: 0, game_id: self.id)
+    Bishop.create(color: 'black', xcoordinate: 2, ycoordinate: 0, game_id: self.id, piece_type: "&#x265D;")
+    Bishop.create(color: 'black', xcoordinate: 5, ycoordinate: 0, game_id: self.id, piece_type: "&#x265D;")
 
-    Queen.create(color: 'black', xcoordinate: 3, ycoordinate: 0, game_id: self.id)
-    King.create(color: 'black', xcoordinate: 4, ycoordinate: 0, game_id: self.id)
+    Queen.create(color: 'black', xcoordinate: 3, ycoordinate: 0, game_id: self.id, piece_type: "&#x265B;")
+    King.create(color: 'black', xcoordinate: 4, ycoordinate: 0, game_id: self.id, piece_type: "&#x265A;")
 
     #Populates white pieces in the database
     (0..7).each do |i|
-      Pawn.create(color: 'white', xcoordinate: i, ycoordinate: 6, game_id: self.id)
+      Pawn.create(color: 'white', xcoordinate: i, ycoordinate: 6, game_id: self.id, piece_type: "&#x2659;")
     end
   
-    Rook.create(color:'white', xcoordinate: 0, ycoordinate: 7, game_id: self.id)
-    Rook.create(color:'white', xcoordinate: 7, ycoordinate: 7, game_id: self.id)
+    Rook.create(color:'white', xcoordinate: 0, ycoordinate: 7, game_id: self.id, piece_type: "&#x2656;")
+    Rook.create(color:'white', xcoordinate: 7, ycoordinate: 7, game_id: self.id, piece_type: "&#x2656;")
 
-    Knight.create(color: 'white', xcoordinate: 1, ycoordinate: 7, game_id: self.id)
-    Knight.create(color: 'white', xcoordinate: 6, ycoordinate: 7, game_id: self.id)
+    Knight.create(color: 'white', xcoordinate: 1, ycoordinate: 7, game_id: self.id, piece_type: "&#x2658;")
+    Knight.create(color: 'white', xcoordinate: 6, ycoordinate: 7, game_id: self.id, piece_type: "&#x2658;")
 
-    Bishop.create(color: 'white', xcoordinate: 2, ycoordinate: 7, game_id: self.id)
-    Bishop.create(color: 'white', xcoordinate: 5, ycoordinate: 7, game_id: self.id)
+    Bishop.create(color: 'white', xcoordinate: 2, ycoordinate: 7, game_id: self.id, piece_type: "&#x2657;")
+    Bishop.create(color: 'white', xcoordinate: 5, ycoordinate: 7, game_id: self.id, piece_type: "&#x2657;")
 
-    Queen.create(color: 'white', xcoordinate: 3, ycoordinate: 7, game_id: self.id)
-    King.create(color: 'white', xcoordinate: 4, ycoordinate: 7, game_id: self.id)
+    Queen.create(color: 'white', xcoordinate: 3, ycoordinate: 7, game_id: self.id, piece_type: "&#x2655;")
+    King.create(color: 'white', xcoordinate: 4, ycoordinate: 7, game_id: self.id, piece_type: "&#x2654;")
     
   end
 
