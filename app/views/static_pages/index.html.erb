@@ -4,6 +4,7 @@
 <h2> Available Games by User E-mail </h2>
 <% Game.available.each do |game| %>
 <%= User.find(game.user_id).email %>
+<%= link_to game.id, game_path(game) %>
 <p>
 <% end %>
 
