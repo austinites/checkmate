@@ -7,4 +7,14 @@ class Pawn < Piece
   def promotion
 
   end  
+
+  def code
+  	if self.color == "white"
+  		return "&#x2659;"
+  	end
+  	if self.color == "black"
+  		return "&#x265F;"
+  	end
+end
+  
 end

@@ -8441,3 +8441,1431 @@ Processing by GamesController#show as HTML
 Completed 200 OK in 401ms (Views: 374.0ms | ActiveRecord: 3.2ms)
 
 
+Started GET "/games/2" for 10.0.2.2 at 2019-10-27 19:38:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/games_controller.rb:4
+  Rendering games/show.html.erb within layouts/application
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  Rendered games/show.html.erb within layouts/application (106.1ms)
+Completed 200 OK in 360ms (Views: 342.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-27 19:38:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT "games".* FROM "games" WHERE ("games"."black_id" IS NULL OR "games"."white_id" IS NULL)[0m
+  ↳ app/views/static_pages/index.html.erb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  Rendered static_pages/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 339ms (Views: 321.5ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 92]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 93]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 94]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 95]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 96]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 97]]
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 98]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 99]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 100]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 101]]
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 102]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 103]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 104]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 105]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 106]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 107]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 108]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 109]]
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 110]]
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 111]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 112]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 113]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 114]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 115]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 116]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 117]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 118]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 119]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 120]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 121]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 122]]
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 123]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("created_at", "updated_at", "game_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-10-27 20:09:03.157661"], ["updated_at", "2019-10-27 20:09:03.157661"], ["game_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 1], ["LIMIT", 11]]
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 268]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 236]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 237]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 238]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 239]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 240]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.1ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 241]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 242]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 243]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 244]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 245]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 246]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 247]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 248]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 249]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 250]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 251]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 252]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 253]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 254]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 255]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 256]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 257]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 258]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 259]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 260]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 261]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 262]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 263]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 264]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 265]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 266]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 267]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 2], ["LIMIT", 11]]
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Create (1.0ms)[0m  [1m[32mINSERT INTO "pieces" ("created_at", "updated_at", "game_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-10-27 20:09:56.315068"], ["updated_at", "2019-10-27 20:09:56.315068"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 2], ["LIMIT", 11]]
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("created_at", "updated_at", "game_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-10-27 20:10:34.000611"], ["updated_at", "2019-10-27 20:10:34.000611"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 2], ["LIMIT", 11]]
+  [1m[36mPawn Load (0.0ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mPawn Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mPiece Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 270]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPiece Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 269]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("created_at", "updated_at", "game_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-10-27 20:11:34.635327"], ["updated_at", "2019-10-27 20:11:34.635327"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("created_at", "updated_at", "game_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-10-27 20:12:53.567883"], ["updated_at", "2019-10-27 20:12:53.567883"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  [1m[36mKnight Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mKnight Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mKnight Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 271]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 272]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mPiece Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("piece_type", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["piece_type", "Knight"], ["created_at", "2019-10-27 20:26:59.954563"], ["updated_at", "2019-10-27 20:26:59.954563"], ["game_id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 2], ["LIMIT", 11]]
+  [1m[36mGame Load (0.6ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("piece_type", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["piece_type", "Pawn"], ["created_at", "2019-10-27 20:27:10.400954"], ["updated_at", "2019-10-27 20:27:10.400954"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPiece Load (0.2ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1 LIMIT $2[0m  [["game_id", 2], ["LIMIT", 11]]
+  [1m[36mPawn Load (0.6ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Pawn')[0m
+  [1m[36mKnight Load (0.7ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Knight')[0m
+  [1m[36mPiece Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 273]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 274]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (1.1ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.158781"], ["updated_at", "2019-10-27 20:29:10.158781"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.163787"], ["updated_at", "2019-10-27 20:29:10.163787"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.167496"], ["updated_at", "2019-10-27 20:29:10.167496"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.171054"], ["updated_at", "2019-10-27 20:29:10.171054"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.174777"], ["updated_at", "2019-10-27 20:29:10.174777"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (1.0ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.178732"], ["updated_at", "2019-10-27 20:29:10.178732"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.183150"], ["updated_at", "2019-10-27 20:29:10.183150"], ["game_id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.187218"], ["updated_at", "2019-10-27 20:29:10.187218"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 0], ["piece_type", "Rook"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.200674"], ["updated_at", "2019-10-27 20:29:10.200674"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 0], ["piece_type", "Rook"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.204525"], ["updated_at", "2019-10-27 20:29:10.204525"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 0], ["piece_type", "Knight"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.218274"], ["updated_at", "2019-10-27 20:29:10.218274"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 0], ["piece_type", "Knight"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.221904"], ["updated_at", "2019-10-27 20:29:10.221904"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.1ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 0], ["piece_type", "Bishop"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.239106"], ["updated_at", "2019-10-27 20:29:10.239106"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 0], ["piece_type", "Bishop"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.242235"], ["updated_at", "2019-10-27 20:29:10.242235"], ["game_id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQueen Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 0], ["piece_type", "Queen"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.256731"], ["updated_at", "2019-10-27 20:29:10.256731"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKing Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 0], ["piece_type", "King"], ["color", "black"], ["created_at", "2019-10-27 20:29:10.270070"], ["updated_at", "2019-10-27 20:29:10.270070"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.274126"], ["updated_at", "2019-10-27 20:29:10.274126"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.277905"], ["updated_at", "2019-10-27 20:29:10.277905"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.281238"], ["updated_at", "2019-10-27 20:29:10.281238"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.285139"], ["updated_at", "2019-10-27 20:29:10.285139"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.288257"], ["updated_at", "2019-10-27 20:29:10.288257"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.291589"], ["updated_at", "2019-10-27 20:29:10.291589"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.295160"], ["updated_at", "2019-10-27 20:29:10.295160"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.298438"], ["updated_at", "2019-10-27 20:29:10.298438"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 7], ["piece_type", "Rook"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.301817"], ["updated_at", "2019-10-27 20:29:10.301817"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 7], ["piece_type", "Rook"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.305552"], ["updated_at", "2019-10-27 20:29:10.305552"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 7], ["piece_type", "Knight"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.309066"], ["updated_at", "2019-10-27 20:29:10.309066"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 7], ["piece_type", "Knight"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.312377"], ["updated_at", "2019-10-27 20:29:10.312377"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 7], ["piece_type", "Bishop"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.316730"], ["updated_at", "2019-10-27 20:29:10.316730"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 7], ["piece_type", "Bishop"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.320131"], ["updated_at", "2019-10-27 20:29:10.320131"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQueen Create (0.1ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 7], ["piece_type", "Queen"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.323174"], ["updated_at", "2019-10-27 20:29:10.323174"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKing Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 7], ["piece_type", "King"], ["color", "white"], ["created_at", "2019-10-27 20:29:10.326772"], ["updated_at", "2019-10-27 20:29:10.326772"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mKing Load (0.8ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('King') LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mPawn Load (0.4ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Pawn') LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 275]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 276]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 277]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 278]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 279]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 280]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 281]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 282]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 283]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 284]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 285]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 286]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBishop Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 287]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBishop Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 288]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQueen Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 289]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKing Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 290]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 291]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 292]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 293]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 294]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 295]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 296]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 297]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 298]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 299]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRook Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 300]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 301]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKnight Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 302]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBishop Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 303]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBishop Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 304]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQueen Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 305]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mKing Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 306]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.896813"], ["updated_at", "2019-10-27 20:34:51.896813"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.900608"], ["updated_at", "2019-10-27 20:34:51.900608"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.904423"], ["updated_at", "2019-10-27 20:34:51.904423"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.907743"], ["updated_at", "2019-10-27 20:34:51.907743"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.912347"], ["updated_at", "2019-10-27 20:34:51.912347"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.915583"], ["updated_at", "2019-10-27 20:34:51.915583"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.1ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.919044"], ["updated_at", "2019-10-27 20:34:51.919044"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:34:51.922488"], ["updated_at", "2019-10-27 20:34:51.922488"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.930323"], ["updated_at", "2019-10-27 20:34:51.930323"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.934225"], ["updated_at", "2019-10-27 20:34:51.934225"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.937626"], ["updated_at", "2019-10-27 20:34:51.937626"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.941036"], ["updated_at", "2019-10-27 20:34:51.941036"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.944834"], ["updated_at", "2019-10-27 20:34:51.944834"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.948291"], ["updated_at", "2019-10-27 20:34:51.948291"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.6ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.951891"], ["updated_at", "2019-10-27 20:34:51.951891"], ["game_id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:34:51.956371"], ["updated_at", "2019-10-27 20:34:51.956371"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPawn Load (0.7ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Pawn')[0m
+  [1m[36mPawn Load (0.4ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Pawn') AND "pieces"."id" = $1 LIMIT $2[0m  [["id", 307], ["LIMIT", 1]]
+  [1m[36mPawn Load (0.4ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('Pawn') AND "pieces"."id" = $1 LIMIT $2[0m  [["id", 307], ["LIMIT", 1]]
+Started GET "/" for 10.0.2.2 at 2019-10-27 20:37:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT "games".* FROM "games" WHERE ("games"."black_id" IS NULL OR "games"."white_id" IS NULL)[0m
+  ↳ app/views/static_pages/index.html.erb:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  Rendered static_pages/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 1022ms (Views: 996.6ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/games/2" for 10.0.2.2 at 2019-10-27 20:37:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/games_controller.rb:4
+  Rendering games/show.html.erb within layouts/application
+  [1m[36mPiece Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.1ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.1ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  Rendered games/show.html.erb within layouts/application (165.9ms)
+Completed 200 OK in 468ms (Views: 445.6ms | ActiveRecord: 4.3ms)
+
+
+  [1m[36mPiece Load (0.1ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 307]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 308]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 309]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 310]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 311]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 312]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 313]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 314]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 315]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 316]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 317]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 318]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 319]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 320]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 321]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPawn Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pieces" WHERE "pieces"."id" = $1[0m  [["id", 322]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.5ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.710864"], ["updated_at", "2019-10-27 20:42:13.710864"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.714272"], ["updated_at", "2019-10-27 20:42:13.714272"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.718030"], ["updated_at", "2019-10-27 20:42:13.718030"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.721627"], ["updated_at", "2019-10-27 20:42:13.721627"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.725359"], ["updated_at", "2019-10-27 20:42:13.725359"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.728796"], ["updated_at", "2019-10-27 20:42:13.728796"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.732167"], ["updated_at", "2019-10-27 20:42:13.732167"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 1], ["piece_type", "Pawn"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.736461"], ["updated_at", "2019-10-27 20:42:13.736461"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 0], ["piece_type", "Rook"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.750126"], ["updated_at", "2019-10-27 20:42:13.750126"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 0], ["piece_type", "Rook"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.753569"], ["updated_at", "2019-10-27 20:42:13.753569"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 0], ["piece_type", "Knight"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.767409"], ["updated_at", "2019-10-27 20:42:13.767409"], ["game_id", 2]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 0], ["piece_type", "Knight"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.771671"], ["updated_at", "2019-10-27 20:42:13.771671"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 0], ["piece_type", "Bishop"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.784569"], ["updated_at", "2019-10-27 20:42:13.784569"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 0], ["piece_type", "Bishop"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.788487"], ["updated_at", "2019-10-27 20:42:13.788487"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQueen Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 0], ["piece_type", "Queen"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.802285"], ["updated_at", "2019-10-27 20:42:13.802285"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKing Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 0], ["piece_type", "King"], ["color", "black"], ["created_at", "2019-10-27 20:42:13.816091"], ["updated_at", "2019-10-27 20:42:13.816091"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.819560"], ["updated_at", "2019-10-27 20:42:13.819560"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.5ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.823075"], ["updated_at", "2019-10-27 20:42:13.823075"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.827290"], ["updated_at", "2019-10-27 20:42:13.827290"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.830459"], ["updated_at", "2019-10-27 20:42:13.830459"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.833981"], ["updated_at", "2019-10-27 20:42:13.833981"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.837631"], ["updated_at", "2019-10-27 20:42:13.837631"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.841010"], ["updated_at", "2019-10-27 20:42:13.841010"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPawn Create (0.4ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 6], ["piece_type", "Pawn"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.844398"], ["updated_at", "2019-10-27 20:42:13.844398"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 0], ["ycoordinate", 7], ["piece_type", "Rook"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.848292"], ["updated_at", "2019-10-27 20:42:13.848292"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRook Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 7], ["ycoordinate", 7], ["piece_type", "Rook"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.851424"], ["updated_at", "2019-10-27 20:42:13.851424"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 1], ["ycoordinate", 7], ["piece_type", "Knight"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.854924"], ["updated_at", "2019-10-27 20:42:13.854924"], ["game_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKnight Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 6], ["ycoordinate", 7], ["piece_type", "Knight"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.858480"], ["updated_at", "2019-10-27 20:42:13.858480"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 2], ["ycoordinate", 7], ["piece_type", "Bishop"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.861896"], ["updated_at", "2019-10-27 20:42:13.861896"], ["game_id", 2]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.1ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBishop Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 5], ["ycoordinate", 7], ["piece_type", "Bishop"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.865219"], ["updated_at", "2019-10-27 20:42:13.865219"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQueen Create (0.3ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 3], ["ycoordinate", 7], ["piece_type", "Queen"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.868754"], ["updated_at", "2019-10-27 20:42:13.868754"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGame Load (0.2ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mKing Create (0.2ms)[0m  [1m[32mINSERT INTO "pieces" ("xcoordinate", "ycoordinate", "piece_type", "color", "created_at", "updated_at", "game_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["xcoordinate", 4], ["ycoordinate", 7], ["piece_type", "King"], ["color", "white"], ["created_at", "2019-10-27 20:42:13.872171"], ["updated_at", "2019-10-27 20:42:13.872171"], ["game_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mKing Load (1.0ms)[0m  [1m[34mSELECT  "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('King') LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mKing Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."piece_type" IN ('King')[0m
+Started GET "/games/2" for 10.0.2.2 at 2019-10-27 20:42:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.3ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/games_controller.rb:4
+  Rendering games/show.html.erb within layouts/application
+  [1m[36mPiece Load (0.3ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.1ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  Rendered games/show.html.erb within layouts/application (227.1ms)
+Completed 200 OK in 1295ms (Views: 1251.5ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-10-27 20:43:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT "games".* FROM "games" WHERE ("games"."black_id" IS NULL OR "games"."white_id" IS NULL)[0m
+  ↳ app/views/static_pages/index.html.erb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:6
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 302ms (Views: 282.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/games/3" for 10.0.2.2 at 2019-10-27 20:43:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mGame Load (0.6ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/games_controller.rb:4
+  Rendering games/show.html.erb within layouts/application
+  [1m[36mPiece Load (0.5ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 3]]
+  ↳ app/views/games/show.html.erb:9
+  Rendered games/show.html.erb within layouts/application (67.2ms)
+Completed 200 OK in 348ms (Views: 315.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/games/2" for 10.0.2.2 at 2019-10-27 20:43:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.4ms)[0m  [1m[34mSELECT  "games".* FROM "games" WHERE "games"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/games_controller.rb:4
+  Rendering games/show.html.erb within layouts/application
+  [1m[36mPiece Load (0.4ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  [1m[36mCACHE Piece Load (0.0ms)[0m  [1m[34mSELECT "pieces".* FROM "pieces" WHERE "pieces"."game_id" = $1[0m  [["game_id", 2]]
+  ↳ app/views/games/show.html.erb:9
+  Rendered games/show.html.erb within layouts/application (138.0ms)
+Completed 200 OK in 408ms (Views: 388.9ms | ActiveRecord: 1.5ms)
+
+

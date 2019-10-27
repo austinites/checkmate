@@ -9,7 +9,7 @@
       	<%  @game.pieces.all.each do |piece| %>
       	<%		if piece.xcoordinate==i     %>
       	<%			if piece.ycoordinate==7-j %>
-      	<%=        		raw(piece.piece_type)	%>
+      	<%=        		raw(piece.code)	%>
       	<%			end 					%>
       	<%		end 						%>
       	<%	end                             %>
