@@ -1,10 +1,29 @@
-<h1>Hi</h1>
-<p>
+<h2> Active Games </h2>
+<% 	Game.all.each do |game| %>
+	<% if game.white_id != nil && game.black_id != nil %>
+		<%= link_to (User.find(game.white_id).email+" vs. "+User.find(game.black_id).email), game_path(game) %>
+	<p>
+	<% end %>
+<% end %>
 
-<h2> Available Games by User E-mail </h2>
+
+<% if current_user != nil %>
+<h2> Your Current Games </h2>
+<% 	Game.all.each do |game| %>
+	<% if game.black_id == current_user.id || game.white_id==current_user.id %>
+		<%= link_to game.id, game_path(game) %>
+	<p>
+	<% end %>
+<% 	end %>
+<% end %>
+
+<h2> Games You can Join by User E-mail </h2>
 <% Game.available.each do |game| %>
-<%= User.find(game.user_id).email %>
-<%= link_to game.id, game_path(game) %>
+<%  if current_user == nil %>
+	<%= link_to User.find(game.user_id).email, game_path(game) %>
+<% 	elsif game.black_id != current_user.id && game.white_id != current_user.id %>
+	<%= link_to User.find(game.user_id).email, game_path(game) %>
+<%  end %>
 <p>
 <% end %>
 
