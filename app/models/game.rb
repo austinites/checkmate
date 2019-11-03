@@ -75,6 +75,10 @@ class Game < ApplicationRecord
     current_state
   end  
 
+  def move_friendly_piece(x, y)
+    update_attributes(xcoordinate: x, ycoordinate: y)
+  end
+
   def castling?(king, rook)
     return false if (status == has_moved)
     # piece is black, castle to left
