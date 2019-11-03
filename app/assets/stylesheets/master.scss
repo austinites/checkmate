@@ -34,12 +34,18 @@
   background-color: gray;
 }
 
-
-
-#chess-board a:link, a:visited, a:hover {
-	color: black;
+#chess-board td.legalmove {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  font-color: black;
+  background-color: green;
 }
 
 
-
+#chess-board a.piece:link, a.piece:visited, a.piece:hover {
+	color: black;
+}
 

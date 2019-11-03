@@ -10,6 +10,8 @@
     <% 8.times do |i|%>
       <% if @piece.xcoordinate==i && @piece.ycoordinate==7-j %>
         <td class="highlighted">
+      <% elsif @piece.legal_move?(i,j) %>
+        <td class="legalmove"
       <% elsif i.even? && j.odd? %>
         <td class="black">
       <% elsif i.odd? && j.even? %>
@@ -21,7 +23,7 @@
       	<%  @game.pieces.all.each do |piece| %>
       	<%		if piece.xcoordinate==i     %>
       	<%			if piece.ycoordinate==7-j %>
-      	<%=        link_to(raw(piece.code), :controller => "pieces", :action => "show" , :id => piece.id) %>
+      	<%=        link_to(raw(piece.code),{:controller => "pieces", :action => "show" , :id => piece.id}, class: "piece") %>
       	<%			end 					%>
       	<%		end 						%>
       	<%	end                             %>
@@ -31,7 +33,6 @@
   </tr> 
 <% end %> 
 </table>
-
 
 
 <script>

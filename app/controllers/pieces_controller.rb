@@ -5,4 +5,8 @@ class PiecesController < ApplicationController
 		@piece=Piece.find(params[:id])
 		@game=Game.find(@piece.game_id)
     end
+
+    def update
+    	@piece.update_attributes( )
+    end
 end
