@@ -1,16 +1,6 @@
 <h1>Here's Your Game</h1>
 
 
-<% if @game.black_id == nil || @game.white_id ==nil       %>
-  <% if @game.black_id != current_user.id && @game.white_id != current_user.id %>
-     This game still needs another player! <p>
-     Would you like to join?
-    <%= simple_form_for @game do |f| %>
-     <%= f.submit 'Join', class: 'btn btn-primary' %>
-    <% end %>
-  <% end %>
-<% end %>
-
 
 <p>
 <p>
@@ -43,7 +33,3 @@
   
 
 </script>
-
-
-
-
