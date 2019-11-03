@@ -48,6 +48,33 @@ class Game < ApplicationRecord
     end
   end
 
+  # Checks if king in check
+  def in_check?(king)
+    opposite_pieces = pieces.where(color: !king.color)
+    opposite_pieces.each do |piece|
+      if piece.valid_move?(king.xcoordinate, king.ycoordinate)
+        return true
+      else
+        return false
+      end
+    end
+  end
+
+  # Check if move will cause check 
+  def put_in_check?(x, y)
+    current_state = false
+    # Create temporary game state
+    ActiveRecord::Base.transaction do
+      # Try to move piece to (x, y), check if king is in check 
+      move_friendly_piece(x, y)
+      current_state = king.where(color: king.color).in_check?
+      # Rollback, remove temporary game state
+      raise ActiveRecord::Rollback
+    end
+    reload
+    current_state
+  end  
+
   def castling?(king, rook)
     return false if (status == has_moved)
     # piece is black, castle to left
