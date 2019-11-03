@@ -22,7 +22,7 @@
       	<%  @game.pieces.all.each do |piece| %>
       	<%		if piece.xcoordinate==i     %>
       	<%			if piece.ycoordinate==7-j %>
-      	<%=        		raw(piece.code)	%>
+      	<%=        link_to(raw(piece.code),  ) %>
       	<%			end 					%>
       	<%		end 						%>
       	<%	end                             %>
@@ -32,6 +32,8 @@
   </tr> 
 <% end %> 
 </table>
+
+
 
 <script>
   $("#chess-board td").click(function() {

@@ -11,6 +11,11 @@
   border: 1px solid black;
   text-align: center;
   font-size: 50px;
+  font-color: black;
+}
+
+#chess-board a:link, a:visited, a:hover {
+	color: black;
 }
 
 #chess-board tr:nth-child(odd) td:nth-child(odd) {
@@ -20,4 +25,5 @@
 #chess-board tr:nth-child(even) td:nth-child(even) {
   background-color: gray;
   }
+
 
