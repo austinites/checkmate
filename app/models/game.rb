@@ -1,4 +1,8 @@
 class Game < ApplicationRecord
+
+  belongs_to :user
+  has_many :pieces
+
   belongs_to :user
 
   def pieces_remaining(color)
