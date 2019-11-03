@@ -8,7 +8,16 @@
 <% 8.times do |j|%>
   <tr>
     <% 8.times do |i|%>
-      <td>
+      <% if @piece.xcoordinate==i && @piece.ycoordinate==7-j %>
+        <td class="highlighted">
+      <% elsif i.even? && j.odd? %>
+        <td class="black">
+      <% elsif i.odd? && j.even? %>
+        <td class="black">
+      <% else %>
+        <td>
+      <% end %>
+
       	<%  @game.pieces.all.each do |piece| %>
       	<%		if piece.xcoordinate==i     %>
       	<%			if piece.ycoordinate==7-j %>

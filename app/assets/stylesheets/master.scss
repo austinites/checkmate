@@ -14,16 +14,32 @@
   font-color: black;
 }
 
+#chess-board td.highlighted {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  font-color: black;
+  background-color: blue;
+}
+
+#chess-board td.black {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  font-color: black;
+  background-color: gray;
+}
+
+
+
 #chess-board a:link, a:visited, a:hover {
 	color: black;
 }
 
-#chess-board tr:nth-child(odd) td:nth-child(odd) {
-  background-color: gray;
-  }
 
-#chess-board tr:nth-child(even) td:nth-child(even) {
-  background-color: gray;
-  }
 
 
