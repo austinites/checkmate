@@ -52,7 +52,7 @@ class Game < ApplicationRecord
   def in_check?(king)
     opposite_pieces = pieces.where(color: !king.color)
     opposite_pieces.each do |piece|
-      if piece.valid_move?(king.xcoordinate, king.ycoordinate)
+      if piece.legal_move?(king.xcoordinate, king.ycoordinate)
         return true
       else
         return false
@@ -99,5 +99,4 @@ class Game < ApplicationRecord
       rook.move_to(5, 7)
     end  
   end
-
 end
