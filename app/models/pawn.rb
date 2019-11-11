@@ -1,6 +1,11 @@
 class Pawn < Piece
-  def legal_move?#(x, y)
-  	puts("Pawn Legal Move")
+  def legal_move?(x, y)
+  	if self.xcoordinate == x && self.ycoordinate == 6-y
+      return true
+    else
+      return false
+    end
+
   end
 
   #when pawn reaches the end of the board

@@ -11,7 +11,12 @@
       <% if @piece.xcoordinate==i && @piece.ycoordinate==7-j %>
         <td class="highlighted">
       <% elsif @piece.legal_move?(i,j) %>
-        <td class="legalmove"
+        <td class="legalmove"> 
+        <%= simple_form_for(@piece, :url => piece_path(@piece), :as => :piece) do |f| %>
+          <%= f.hidden_field :xmove, value: i %>
+          <%= f.hidden_field :ymove, value: 7-j %>
+          <%= f.submit 'Move', class: 'btn btn-primary' %>
+        <% end %>
       <% elsif i.even? && j.odd? %>
         <td class="black">
       <% elsif i.odd? && j.even? %>
