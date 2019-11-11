@@ -6,8 +6,11 @@ class CreatePieces < ActiveRecord::Migration[5.2]
       t.string :piece_type
       t.string :color
       t.integer :piece_owner_id
-      t.integer :in_check_player_id
+      t.integer :in_check_player_id #???
       t.timestamps
     end
   end
 end
+
+
+

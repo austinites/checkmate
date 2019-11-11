@@ -49,6 +49,7 @@ class Game < ApplicationRecord
     opposite_pieces = pieces.where(color: !king.color)
     opposite_pieces.each do |piece|
       if piece.legal_move?(king.xcoordinate, king.ycoordinate)
+        @piece_causing_check = piece
         return true
       else
         return false
@@ -75,6 +76,20 @@ class Game < ApplicationRecord
     update_attributes(xcoordinate: x, ycoordinate: y)
   end
 
+  def checkmate?(king)
+    checked_king = pieces.find_by(type: 'King', color: color)
+    # check if king is in check
+    return false unless in_check?
+    # if piece causing check can be captured return false
+    return false if @piece_causing_check.can_be_captured?
+    # if king can move out of check return false
+    return false if checked_king.can_move_out_of_check?
+    # if piece can block check return false
+    return false if @piece_causing_check.can_be_blocked? checked_king
+
+    true
+  end
+
   def castling?(king, rook)
     return false if (status == has_moved)
     # piece is black, castle to left
@@ -95,4 +110,36 @@ class Game < ApplicationRecord
       rook.move_to(5, 7)
     end  
   end
+
+  # switches game turn to color
+  def switch_players(color)
+    # ensure that game is set to correct turn
+    if color
+      update_attributes(color_turn: 'white')
+    else
+      update_attributes(color_turn: 'black')
+    end
+  end
+
+  # update turn and game state after successful move
+  def update_state(current_player_color)
+    # check if opposite player is in check
+    if in_check?(!current_player_color)
+      update_attributes(state: 'check')
+    elsif checkmate?(!current_player_color)
+      update_attributes(state: 'checkmate')
+    end
+    
+    else
+      # if not, game state is not check
+      update_attributes(state: nil)
+    end
+    # give turn over to other player
+    switch_players(!current_player_color)
+  end
+
+  def first_turn
+    update_attributes(turn: 'white')
+  end
+
 end
